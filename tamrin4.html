@@ -1,0 +1,292 @@
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content= "width=device-width, intial-scale=1.0">
+
+     
+    </head>
+      <style>
+       @font-face {
+    font-family: Vazirmatn RD;
+    src: url('esset/fonts//Vazirmatn-RD-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    }
+  html {
+    font-size: 10px;
+  }
+  *,*:after,*:before {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+  body{
+     direction: rtl;
+     margin: 0%;
+     /* font-weight: 900;  */
+     font-family: Vazirmatn RD;
+  }
+  a{
+     text-decoration:none;
+  }
+  ul li {
+    margin: 0PX;
+    padding: 0PX;
+    list-style: none;
+  }
+  .container {
+     width: 1150px;
+     margin: 0 auto;
+  }
+  .header .logo {
+     float: right;
+     font-size: 1.3rem;
+  }
+  .header .menu {
+     float: left;
+  }
+  .header .menu ul li {
+     float: right;
+  }
+  .header .menu ul li a {
+     color: #3acec2;
+     display: inline-block;
+     padding: 20px 25px;
+     font-size: 2.0rem;
+     text-transform: capitalize;
+  
+  }
+  .header {
+     position: fixed; 
+     top: 0%;
+     padding: 15px;
+     background: #fff;
+     width: 100%;
+     z-index: 30px;
+  }
+  .header .logo h2 {
+    color: #093a58;
+  }
+  .header .menu ul li a:hover {
+    color: #093a58;
+  
+  }
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  .clearfix:after {
+    content:"";
+    clear:both;
+    display: table;
+  }
+  .hero-section img {
+    display: block;
+    width: 190px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .hero-section {
+    text-align:center;
+  }
+  .hero-section {
+    background:  #3acec2;
+    padding: 150px 0 40px 0; 
+    color:white;
+    padding-bottom: 40px;
+  
+  }
+  .hero-section p {
+    margin-bottom: 0%;
+    margin-top: 0%;
+    font-size: 2.0rem;
+  }
+  .hero-section h1 {
+    margin-bottom: 7px;
+     } 
+  
+    .content-box 
+     {
+    padding: 20px 0; 
+     }
+  
+    
+    .content-box .column {
+    float: right; 
+    width: 30%;
+    padding: 20px 10px;
+     }
+   .content-box .column-2 {
+    width: 40%;
+    position: relative;
+    }
+       
+   .content-box .column h3 {
+    color: #093a58;
+    font-size: 2.2rem;
+  }
+   .content-box .column p {
+    font-size: 1.3rem;
+    line-height: 27px;
+   }
+  
+   .footer {
+     text-align: center;
+     background: #d9e4ea;
+     padding: 20px 0;
+   }
+  
+   .footer p {
+     margin: 0%;
+     font-size: 1.5rem;
+   }
+   .content-box .column-2 figure h4 p {
+     position: absolute;
+     bottom: 0%;
+     width: 100%;
+   }
+   figure {
+     position: relative;
+     margin: 0%;
+   }
+   figcaption {
+     position: absolute;
+     bottom: 0%;
+     width: 100%;
+     font-size: 1.5rem;
+     line-height: 14px;
+     color:#fff;
+     background: rgba(19, 43, 102, .85); 
+     text-align: center;
+   }
+  .icon img {
+    margin-top: -45px;
+    padding: 10px;
+  }
+  .icon{
+    width: 50px;
+    height: 50px;
+    
+    text-align: center;
+    position: fixed; 
+    bottom:40px;
+    left: 40px;
+  
+  }
+   
+  @media only screen and (max-width:1150px) {
+    .container{
+      width: 100%;
+    }
+  }  
+  @media only screen and (max-width:800px) {
+    .content-box .column-1, .content-box .column-2 {
+     width: 50%;
+    }
+    .content-box .column-3{
+     width: 100%;
+    }
+  }
+  @media only screen and (max-width:600px) {
+    .header .logo,.header .menu {
+      float:none;
+    }
+    .header .logo {
+      text-align: center;
+    }
+    .header .menu ul {
+      text-align: center;
+    }
+    
+   
+    .header .menu ul {
+      padding: 10px 32px;
+    }
+    .header .logo {
+      padding: 5px 0;
+    }
+    .hero-section {
+      padding: 200px 0 60px 0px;
+    }
+    .content-box .column-1, .content-box .column-2 {
+      width: 100%;
+    }
+    }
+    
+
+
+      </style>
+
+    <body>
+        <div class="header">
+        <div class="container clearfix">
+            <div class="logo"><h2>بهترین راهنمای شهر</h2></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">قهوه</a></li>
+                    <li><a href="#">چایی</a></li>
+                    <li><a href="#">دونات</a></li>
+                    <li><a href="#">بستنی</a></li>
+                </ul>
+            </div>
+        </div>
+
+        </div>
+        <div class="hero-section">
+         <div class="container clearfix">
+            <img src="https://ukirderohit.com/Simple-CSS-Layout/img/city.svg"/>
+             <h1>بهترین راهنمای شهر</h1>
+             <p>بهترین نوشیدنی ها و غذاها در هر جای شهر.</p>
+            </div>
+         </div>
+         <div class="content-box">
+            <div class="container clearfix">
+               <div class="space">
+               <div class="column column-1">
+                  <h3>خوش امدید</h3>
+                  <p>همه چیز در این شهر ارزش انتظار در صف را دارد.
+
+                      کیک شکلاتی آمت ژله لوبیا آب نبات شیرینی براونی. مافین پودر نان زنجبیلی. آب نبات پنبه ای آیسینگ. بستنی کیک کروسانت براونی من عاشق کیک چیزکیک هستم. کروسان ژله ای شیرینی شکلاتی.</p>
+                     <p>کیک کنجدی شیرینی تارت شیرین عصایی تیرامیسو من عاشق شکلات کیک جو دوسر هستم. ژله لوبیا شیرینی براونی شکر آلو شیرینی خرس پنجه تیرامیسو توتسی رول. ویفر رولی توتسی من عاشق دونات شکلاتی هستم.</p>
+               </div>
+            </div>
+               <div class="column column-2">
+                  <div class="space">
+                   <h3>غذای عالی</h3>
+                   <figure>
+                   <img src="https://ukirderohit.com/Simple-CSS-Layout/img/food.svg"/>
+               
+                   <figcaption>
+                   <h4>برخی از عنوان محتوای سرصفحه</h4
+                   <p>حقیقت این است که خود درد مهم است و تربیت دانش آموز دنبال می شود، اما در عین حال دردها و رنج های بزرگی هم وجود دارد."</p>
+                  </figcaption>
+                  </figure>
+                   <p>براونی پای ماکارونی کروسانت. شیرینی ختمی شیرین بیان شیرینی زنجبیلی کارامل تافی من عاشق شکلات هستم. دسر آب نبات چوبی ویفری. پودینگ ژله لوبیا بنبن دسر آلو شکر. مارزیپان تافی دراژه شکلات آب نبات پودینگ تافی من عاشق. آبنبات چوبی شیرینی زنجفیلی پای خرس.</p>
+                   </div>
+                  </div>
+               <div class="column column-3">
+                  <div class="space">
+                   <h3>چگونه به اینجا برسیم</h3>
+                   <p>آدامس کاراملی تیرامیسو مافین آب نبات چوبی . عناب شکلاتی کارامل چیزکیک براونی آب نبات چوبی دراژه چیزکیک.</p>
+                   <p> پودینگ پای سیب پای من عاشق ویفر تافی شیرین بیان کنجد قطره لیمو است. مافین دسر خرس آب نبات چوبی من عاشق پای تافی کیک میوه ای هستم.</p>
+                   <p> .ژله ژله پنبه بونبن ژله-o ژله-o I love. من عاشق پای کیک شکلاتی آلو شکر هستم من عاشق شیرین بیان شیرینی پزی هستم</p>
+            </div>
+            </div>
+            </div>
+         </div>
+               <div class="footer">
+               <div class="container">
+               <p>2017 ساکنان بهترین شهر تا کنون.</p>
+             </div>
+            </div>
+             </div>
+             <div class="icon">
+              <a href="#">
+               <img src="https://www.google.com/search?q=%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF+%D8%A2%DB%8C%DA%A9%D9%88%D9%86&tbm=isch&hl=en&bih=651&biw=1349&rlz=1C1GCEA_enIR1071IR1071&sa=X&ved=2ahUKEwiFhaS1jf-AAxUgmScCHWgWCVcQ3VYoAHoECAEQKQ"/>
+              </a>
+             </div>
+    </body>
+</html>
